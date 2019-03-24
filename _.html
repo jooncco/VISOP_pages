@@ -9,39 +9,33 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-
-	<script src="javascript/main.js"></script>
-	<link href="stylesheet/main.css" rel="stylesheet">
+	<link href="stylesheet/feed.css" rel="stylesheet">
 </head>
 <body>
 
-<!-- Navigation Bar -->
+<!-- Navigation -->
 <nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top">
-	<div class="container-fluid">
-		<a class="navbar-brand" href="#"><img src="assets/img/logo.png"></a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse"
-		data-target="#navbarTags">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarTags">
-			<ul class="navbar-nav ml-auto">
-				<li class="nav-item">
-					<a class="nav-link" href="pages/signUp.html">
-						<button type="button" class="btn btn-outline-secondary btn-lg">Sign Up</button>
-					</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="pages/signIn.html">
-						<button type="button" class="btn btn-primary btn-lg">Sign In</button>
-					</a>
-				</li>
-			</ul>
-		</div>
+<div class="container-fluid">
+	<a class="navbar-brand" href="#"><img src="assets/img/logo.png"></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse"
+	data-target="#navbarTags">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarTags">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item">
+				<a class="nav-link" href="#"> menu1 </a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#"> menu2 </a>
+			</li>
+		</ul>
 	</div>
+</div>
 </nav>
 
 <!--- Image Slider -->
-<div class="carousel slide" id="slides" data-ride="carousel" data-interval="2000" data-pause="false">
+<div class="carousel slide" id="slides" data-ride="carousel">
 <ul class="carousel-indicators">
 		<li data-target="#slides" data-slide-to="0" class="active"></li>
 		<li data-target="#slides" data-slide-to="1"></li>
@@ -53,6 +47,8 @@
 			<div class="carousel-caption">
 				<h1 class="display-2">VISOP</h1>
 				<h5> You are VIP, all the way to 150 </h5>
+				<button type="button" class="btn btn-outline-light btn-lg">Sign Up</button>
+				<button type="button" class="btn btn-primary btn-lg">Sign In</button>
 			</div>
 		</div>
 		<div class="carousel-item">
@@ -64,11 +60,26 @@
 	</div>
 </div>
 
+<!--- Jumbotron -->
+<div class="container-fluid">
+<div class="row jumbotron">
+	<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+		<p class="lead">
+			jumbotron with p element.
+		</p>
+	</div>
+	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 col-xl-2">
+		<a href="#"><button type="button" class="btn btn-outline-secondary
+		btn-lg">Button</button></a>
+	</div>
+</div>
+</div>
+
 <!--- Welcome Section -->
 <div class="conatiner-fluid padding">
 <div class="row welcome text-center">
 	<div class="col-12">
-		<h1 class="display-4"><b>#운동</b>, 이제 같이 하자!</h1>
+		<h1 class="display-4">So easy.</h1>
 	</div>
 	<hr>
 	<div class="col-12">
@@ -153,7 +164,7 @@
 <div class="container-fluid padding">
 <div class="row welcome text-center">
 	<div class="col-12">
-		<h1 class="display-4">Our team</h1>
+		<h1 class="display-4">Meet the team</h1>
 	</div>
 </div>
 </div>
