@@ -1,0 +1,5 @@
+
+# Mac derivatives
+*.DS_Store
+*.metadata
+*.recommenders
