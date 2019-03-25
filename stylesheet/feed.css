@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR|Parisienne');
+
+a {
+    text-decoration: none;
+    color: dimgray;
+    font-size: 11px;
+}
+
+.form-control {
+    margin-left: 10px;
+}
+
+.userProfileList {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.userProfileList li {
+    margin-bottom: 5px;
+    padding: 5px 0px 5px 10px;
+    border-bottom: 1px solid #efefef;
+    font-size: 14px;
+}
+
+.userProfileList li:last-child {
+    border-bottom: 0px;
+}
+
+p {
+    margin: 5px auto;
+}
+
+body {
+    background-color: white;
+}
+
+.left-side {
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    position: fixed;
+    top: 80px;
+    left: 30px;
+    width: 264px;
+}
+
+.right-side {
+    background-color: white;
+    width: 264px;
+    display: inline-block;
+    text-align: center;
+    position: fixed;
+    top: 65px;
+    right: 30px;
+}
+
+h2, p, a, li, span {
+    font-family: 'Noto Sans KR', cursive;
+}
+
+.userName {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+img.profile {
+    width: 200px;
+    /* border-radius: 50%; */
+    margin-bottom: 20px;
+}
+
+img.icon {
+    width: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.side-footer {
+    padding-top: 20px;
+}
+
+.cards {
+    width: 600px;
+    margin: 20px auto;
+}
+
+.card {
+    background-color: white;
+    display: inline-block;
+    margin: 15px 0;
+}
+
+.rank {
+    margin: 10px;
+    padding: 0;
+}
+
+.rank li {
+    font-size: 12px;
+}
+
+.navbar-collapse {
+    margin-left: 20px;
+}
